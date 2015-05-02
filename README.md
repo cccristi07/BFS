@@ -1,2 +1,2 @@
 # Graphs
-Graph search algorithms
+Implementation of BFS 
