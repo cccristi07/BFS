@@ -80,7 +80,7 @@ int dequeue(QUEUE *q){
     {
 
         printf("Empty queue ");
-        return -1;
+        exit(1);
     }
 
     if(q-> front == q->rear )
