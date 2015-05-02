@@ -22,10 +22,10 @@ typedef struct queue{
 /* Example of a queue
 
 
-        *|DATA|HEAD| --->|DATA|ELEM1|--->|DATA|ELEM2|--->|DATA|ELEM3|--->|DATA|TAIL|--->NULL
+        *|DATA|FRONT| --->|DATA|ELEM1|--->|DATA|ELEM2|--->|DATA|ELEM3|--->|DATA|REAR|--->NULL
 
-        *HEAD is the first one to be dequeued
-        *TAIL is the place where enqueuing takes place
+        *FRONT is the first one to be dequeued
+        *REAR is the place where enqueuing takes place
 */
 
 
